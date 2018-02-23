@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OWINAuthentication", "OWINAuthentication\OWINAuthentication.csproj", "{E7570E21-DA5E-4108-9E6E-B3D71245DE52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7570E21-DA5E-4108-9E6E-B3D71245DE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7570E21-DA5E-4108-9E6E-B3D71245DE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7570E21-DA5E-4108-9E6E-B3D71245DE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7570E21-DA5E-4108-9E6E-B3D71245DE52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F70B0E8-5AC9-4C3D-B5B7-1192FC9F7344}
+	EndGlobalSection
+EndGlobal
