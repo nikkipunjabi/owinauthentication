@@ -10,12 +10,14 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Web;
 
-namespace OWINAuthentication.Models
+namespace OWINAuthentication.IdentityProviders
 {
     public class CreateUniqueUser : DefaultExternalUserBuilder
     {
 
-        public CreateUniqueUser(bool isPersistentUser) : base(isPersistentUser)
+        public CreateUniqueUser() : base () { }
+
+        public CreateUniqueUser(bool IsPersistentUser) : base(IsPersistentUser)
         {
         }
 
