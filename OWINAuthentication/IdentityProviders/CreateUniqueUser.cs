@@ -15,11 +15,6 @@ namespace OWINAuthentication.Models
     public class CreateUniqueUser : DefaultExternalUserBuilder
     {
 
-        public CreateUniqueUser() : base ()
-        {
-
-        }
-
         public CreateUniqueUser(bool isPersistentUser) : base(isPersistentUser)
         {
         }
