@@ -61,6 +61,7 @@ namespace OWINAuthentication.IdentityProviders
             options.AppSecret = "c73b086a7fcf315ae7c5ce21877d8798";
             options.Provider = facebookProvider;
             options.CallbackPath = new PathString("/signin-facebook");
+            options.Fields.Add("name");
             options.Fields.Add("email");
             options.Scope.Add("email");
             args.App.UseFacebookAuthentication(options);
