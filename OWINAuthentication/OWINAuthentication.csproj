@@ -167,7 +167,6 @@
     <Compile Include="IdentityProviders\CreateUniqueUser.cs" />
     <Compile Include="IdentityProviders\GoogleAuthentication.cs" />
     <Compile Include="IdentityProviders\FacebookAuthentication.cs" />
-    <Compile Include="IdentityProviders\TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
